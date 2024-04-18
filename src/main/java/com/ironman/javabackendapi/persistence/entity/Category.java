@@ -22,7 +22,8 @@ public class Category implements Serializable {
     @Id
     @GeneratedValue(strategy = IDENTITY)
     @Column(name = "id")
-    private Long id;
+    private Long categoryId;
+
     private String name;
     private String description;
     private String state;
