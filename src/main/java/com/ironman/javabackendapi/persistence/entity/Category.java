@@ -16,7 +16,7 @@ import static jakarta.persistence.GenerationType.IDENTITY;
 
 // JPA anotations
 @Entity
-// @Table(name = "categories")
+@Table(name = "categories")
 public class Category implements Serializable {
     // Attributes
     @Id
